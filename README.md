@@ -11,3 +11,19 @@
 - 페어
   - WICS 대분류10개 업종
 에너지 , 소재, 산업재, 경기관련소비재, 필수소비재, 건강관리, 금융, IT, 커뮤니케이션서비스, 유틸리티
+
+### 모델 구성
+
+- Adjusted **Soft Voting Ensemble**
+  - Light GBM
+  - XGBoost
+  - ExtraRandomForest
+  - Logistic Regression
+  - SVM
+
+- Post-Hoc Feature Selection
+  - Permutation Importance
+
+#### 모델 초모수 튜닝
+
+- Grid, Bayesian, Genetic Algorithm
