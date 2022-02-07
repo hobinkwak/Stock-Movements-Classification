@@ -1,4 +1,4 @@
-# Stock-Movements-Classification
+# Stock Movements Classification
 
 ### 기본 컨셉
 - WICS 기준 10개의 업종 중 2개씩 뽑아 총 45개의 페어에 대해 월별 수익률 우위 업종 예측을 위한 지도학습
